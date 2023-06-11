@@ -1,0 +1,37 @@
+/*----------*----------*----------*----------*---------- Fonts ----------*----------*----------*----------*/
+@import url("https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+/*----------*----------*----------*----------*---------- Reset ----------*----------*----------*----------*/
+*,*::before,*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; /* 1rem == 10px */
+  box-sizing: border-box;
+
+
+  @include respond(tab-port) {
+    font-size: 56.25%; 
+  }
+  @include respond(phone) {
+    font-size: 50%; 
+  }
+}
+
+body {
+  background-color: $color-primary;
+  font-family: $font-family-main;
+  line-height: 1.6;
+
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

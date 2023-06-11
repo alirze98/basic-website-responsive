@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>basic website</title>
+  </head>
+  <body>
+    <header class="header">
+      <button class="btn-mobile-nav">
+        &nbsp;
+      </button>
+      <img
+        src="./images/header/logo-light.svg"
+        alt="logo"
+        class="header__logo--light"
+      />
+      <img
+        src="./images/header/logo-dark.svg"
+        alt="logo"
+        class="header__logo--dark hidden"
+      />
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="#" class="header__link">Home</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">Features</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">About</a>
+          </li>
+          <li class="header__item"><a href="#" class="header__link">Why</a></li>
+          <li class="header__item">
+            <a href="#" class="header__link">Team</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">Testimonials</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">Blog</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">Newsletter</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="section-hero">
+      <div class="hero">
+        <div class="hero__text-box">
+          <h1 class="heading-primary">
+            Basic - SaaS Landing Page
+            <div>Kickstart Your SaaS or App Site</div>
+          </h1>
+          <p class="hero__text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas,
+            magnam.
+          </p>
+          <a href="#" class="btn btn--secondary">Get Started</a>
+        </div>
+        <img
+          src="./images/showcase/hero-img.png"
+          alt="hero image"
+          class="hero__img"
+        />
+      </div>
+    </section>
+    <!-- ---------*---------FEATURES---------*--------- -->
+    <section class="section-features section-container">
+      <h2 class="heading-secondary u-center-text">
+        <span class="heading-secondary__bold">Clean and simple desing,</span>
+        Comes with everything you need to get started
+      </h2>
+      <div class="features">
+        <div class="features__item">
+          <div class="features__img-box">
+            <img
+              src="./images/features/shape-1.svg"
+              alt="feature img"
+              class="features__img"
+            />
+            <img
+              src="./images/features/main-shape.svg"
+              alt="feature img"
+              class="features__img-main"
+            />
+            <i
+              class="fa-solid fa-crop features__icon"
+              aria-colspan="features__icon"
+            ></i>
+          </div>
+          <h3 class="features__title">Clean</h3>
+          <p class="features__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo
+            inventore facere reiciendis
+          </p>
+          <a href="#" class="btn btn--text"
+            ><spna>Learn More&nbsp;<i class="fa-solid fa-angle-right"></i></spna
+          ></a>
+        </div>
+        <div class="features__item">
+          <div class="features__img-box">
+            <img
+              src="./images/features/shape-2.svg"
+              alt="feature"
+              class="features__img"
+            />
+            <img
+              src="./images/features/main-shape.svg"
+              alt="feature img"
+              class="features__img-main"
+            />
+            <i class="fa-solid fa-gear features__icon"></i>
+          </div>
+          <h3 class="features__title">Robust</h3>
+          <p class="features__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo
+            inventore facere reiciendis
+          </p>
+          <a href="#" class="btn btn--text"
+            ><spna>Learn More&nbsp;<i class="fa-solid fa-angle-right"></i></spna
+          ></a>
+        </div>
+        <div class="features__item">
+          <div class="features__img-box">
+            <img
+              src="./images/features/shape-3.svg"
+              alt="feature"
+              class="features__img"
+            />
+            <img
+              src="./images/features/main-shape.svg"
+              alt="feature img"
+              class="features__img-main"
+            />
+            <i class="fa-solid fa-bolt-lightning features__icon"></i>
+          </div>
+          <h3 class="features__title">Powerful</h3>
+          <p class="features__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo
+            inventore facere reiciendis
+          </p>
+          <a href="#" class="btn btn--text"
+            ><spna>Learn More&nbsp;<i class="fa-solid fa-angle-right"></i></spna
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------*---------ABOUT---------*--------- -->
+    <section class="section-about section-container">
+      <div class="about">
+        <div class="about__text-box">
+          <h2 class="heading-secondary about__heading-secondary">
+            <span class="heading-secondary__bold">Quick & Easy</span> to use
+            Templates
+          </h2>
+          <p class="about__text para">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. A optio
+            architecto temporibus, quo atque nobis repellat in, provident
+            necessitatibus consectetur quos, modi voluptatem nam ex quaerat
+            totam. Earum minus sed ratione quidem quaerat, aperiam ut delectus
+            expedita nesciunt recusandae fugiat inventore sunt magni, beatae ea
+            quod modi totam et sequi.
+          </p>
+          <a href="#" class="btn btn--primary">Try it free</a>
+        </div>
+        <img
+          src="./images/about/about-1.svg"
+          alt="about img"
+          class="about__img"
+        />
+        <img
+          src="./images/about/about-2.svg"
+          alt="about img"
+          class="about__img"
+        />
+        <div class="about__text-box about__text-box--ml">
+          <h2 class="heading-secondary about__heading-secondary">
+            <span class="heading-secondary__bold">Modern design</span> with
+            Essential Features
+          </h2>
+          <p class="about__text para">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. A optio
+            architecto temporibus, quo atque nobis repellat in, provident
+            necessitatibus consectetur quos, modi voluptatem nam ex quaerat
+            totam. Earum minus sed ratione quidem quaerat, aperiam ut delectus
+            expedita nesciunt recusandae fugiat inventore sunt magni, beatae ea
+            quod modi totam et sequi.
+          </p>
+          <a href="#" class="btn btn--primary">Try it free</a>
+        </div>
+        <div class="about__text-box">
+          <h2 class="heading-secondary about__heading-secondary">
+            Cragted for<span class="heading-secondary__bold">
+              SaaS, App and Software Landing page</span
+            >
+          </h2>
+          <p class="about__text para">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. A optio
+            architecto temporibus, quo atque nobis repellat in, provident
+            necessitatibus consectetur quos, modi voluptatem nam ex quaerat
+            totam. Earum minus sed ratione quidem quaerat, aperiam ut delectus
+            expedita nesciunt recusandae fugiat inventore sunt magni, beatae ea
+            quod modi totam et sequi.
+          </p>
+          <a href="#" class="btn btn--primary">Try it free</a>
+        </div>
+        <img
+          src="./images/about/about-3.svg"
+          alt="about img"
+          class="about__img"
+        />
+      </div>
+    </section>
+
+    <!-- ---------*---------WHY---------*--------- -->
+    <section class="section-why section-container">
+      <div class="why">
+        <div class="why__img-box">
+          <img src="./images/why/img.png" alt="why image" class="why__img" />
+          <img
+            src="./images/why/dots.svg"
+            alt="why  image"
+            class="why__img-dots"
+          />
+        </div>
+
+        <div class="why__text-box">
+          <h2 class="heading-secondary why__heading-secondary">
+            <span class="heading-secondary__bold">Cool facts</span> about this
+            app
+          </h2>
+          <p class="para why__text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus
+            molestiae nostrum voluptatem iure dolorum
+          </p>
+
+          <div class="why__stats">
+            <div class="why__stat">
+              <p>125k</p>
+              <p>Downloads</p>
+            </div>
+            <div class="why__stat">
+              <p>87k</p>
+              <p>Users</p>
+            </div>
+            <div class="why__stat">
+              <p>4.8k</p>
+              <p>Rating</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------*---------TEAM---------*--------- -->
+    <section class="section-team section-container">
+      <h2 class="heading-secondary u-center-text">
+        Meet our
+        <span class="heading-secondary__bold">Creative Team Members</span>
+      </h2>
+      <div class="team">
+        <div class="team__item">
+          <div class="team__img-box">
+            <img
+              src="./images/team/team-member-1.jpg"
+              alt="team member"
+              class="team__img"
+            />
+          </div>
+          <ul class="team__socials">
+            <li class="team__socials-item">
+              <a href="#" class="team__link"
+                ><i class="fa-brands fa-facebook-square"></i
+              ></a>
+            </li>
+            <li class="team__socials-item">
+              <a href="#" class="team__link"
+                ><i class="fa-brands fa-twitter-square"></i
+              ></a>
+            </li>
+            <li class="team__socials-item">
+              <a href="#" class="team__link"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li class="team__socials-item">
+              <a href="#" class="team__link"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+          <h3 class="heading-tertiary team__heading-tertiary">Alice Amana</h3>
+          <p class="team__desc">Founder and CEO</p>
+        </div>
+        <div class="team__item">
+          <div class="team__img-box">
+            <img
+              src="./images/team/team-member-2.jpg"
+              alt="team member"
+              class="team__img"
+            />
+          </div>
+          <ul class="team__socials team__socials--center">
+            <li class="team__socials-item">
+              <a href="#" class="team__link"
+                ><i class="fa-brands fa-facebook-square"></i
+              ></a>
+            </li>
+            <li class="team__socials-item">
+              <a href="#" class="team__link"
+                ><i class="fa-brands fa-twitter-square"></i
+              ></a>
+            </li>
+            <li class="team__socials-item">
+              <a href="#" class="team__link"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li class="team__socials-item">
+              <a href="#" class="team__link"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+          <h3 class="heading-tertiary team__heading-tertiary">
+            Benjamin Lionheart
+          </h3>
+          <p class="team__desc">Sr. Software Engineer</p>
+        </div>
+        <div class="team__item">
+          <div class="team__img-box">
+            <img
+              src="./images/team/team-member-3.jpg"
+              alt="team member"
+              class="team__img"
+            />
+          </div>
+          <ul class="team__socials team__socials--right">
+            <li class="team__socials-item">
+              <a href="#" class="team__link"
+                ><i class="fa-brands fa-facebook-square"></i
+              ></a>
+            </li>
+            <li class="team__socials-item">
+              <a href="#" class="team__link"
+                ><i class="fa-brands fa-twitter-square"></i
+              ></a>
+            </li>
+            <li class="team__socials-item">
+              <a href="#" class="team__link"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li class="team__socials-item">
+              <a href="#" class="team__link"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+          <h3 class="heading-tertiary team__heading-tertiary">Fiona Smith</h3>
+          <p class="team__desc">Business Development Manager</p>
+        </div>
+      </div>
+    </section>
+    <!-- ---------*---------TESTIMONIALS---------*--------- -->
+   <section class="section-testimonials section-container">
+      <h2 class="heading-secondary u-center-text">
+        <span class="heading-secondary__bold">Users Sharing</span> their
+        experience
+      </h2>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="testimonials__item swiper-slide">
+            <div class="testimonials__icons">
+              <i
+                class="testimonials__card--icons__quote fa-solid fa-quote-right testimonials__quote"
+              ></i>
+              <div class="testimonials__stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <p class="para testimonials__text">
+              " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              dolores molestias aut doloribus repellendus architecto tempore
+              mollitia et ipsa quasi? "
+            </p>
+            <div class="testimonials__profile">
+              <img
+                src="./images/testimonials/man-1.jpg"
+                alt="testimonials man"
+                class="testimonials__picture"
+              />
+              <h4 class="testimonials__name">Ann Jones</h4>
+              <h5 class="testimonials__role">CEO</h5>
+            </div>
+          </div>
+          <div class="testimonials__item swiper-slide">
+            <div class="testimonials__icons">
+              <i
+                class="testimonials__card--icons__quote fa-solid fa-quote-right testimonials__quote"
+              ></i>
+              <div class="testimonials__stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <p class="para testimonials__text">
+              " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              dolores molestias aut doloribus repellendus architecto tempore
+              mollitia et ipsa quasi? "
+            </p>
+            <div class="testimonials__profile">
+              <img
+                src="./images/testimonials/woman-1.jpg"
+                alt="testimonials man"
+                class="testimonials__picture"
+              />
+              <h4 class="testimonials__name">Megan Smith</h4>
+              <h5 class="testimonials__role">CMO</h5>
+            </div>
+          </div>
+          <div class="testimonials__item swiper-slide">
+            <div class="testimonials__icons">
+              <i
+                class="testimonials__card--icons__quote fa-solid fa-quote-right testimonials__quote"
+              ></i>
+              <div class="testimonials__stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <p class="para testimonials__text">
+              " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              dolores molestias aut doloribus repellendus architecto tempore
+              mollitia et ipsa quasi? "
+            </p>
+            <div class="testimonials__profile">
+              <img
+                src="./images/testimonials/man-2.jpg"
+                alt="testimonials man"
+                class="testimonials__picture"
+              />
+              <h4 class="testimonials__name">Ishaan Kumar</h4>
+              <h5 class="testimonials__role">CEO</h5>
+            </div>
+          </div>
+          <div class="testimonials__item swiper-slide">
+            <div class="testimonials__icons">
+              <i
+                class="testimonials__card--icons__quote fa-solid fa-quote-right testimonials__quote"
+              ></i>
+              <div class="testimonials__stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <p class="para testimonials__text">
+              " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              dolores molestias aut doloribus repellendus architecto tempore
+              mollitia et ipsa quasi? "
+            </p>
+            <div class="testimonials__profile">
+              <img
+                src="./images/testimonials/woman-2.jpg"
+                alt="testimonials man"
+                class="testimonials__picture"
+              />
+              <h4 class="testimonials__name">Lauren Lopez</h4>
+              <h5 class="testimonials__role">CFO</h5>
+            </div>
+          </div>
+          <div class="testimonials__item swiper-slide">
+            <div class="testimonials__icons">
+              <i
+                class="testimonials__card--icons__quote fa-solid fa-quote-right testimonials__quote"
+              ></i>
+              <div class="testimonials__stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <p class="para testimonials__text">
+              " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              dolores molestias aut doloribus repellendus architecto tempore
+              mollitia et ipsa quasi? "
+            </p>
+            <div class="testimonials__profile">
+              <img
+                src="./images/testimonials/man-3.jpg"
+                alt="testimonials man"
+                class="testimonials__picture"
+              />
+              <h4 class="testimonials__name">Ethan Davis</h4>
+              <h5 class="testimonials__role">CMO</h5>
+            </div>
+          </div>
+        </div>
+         <!-- Swiper Pagination  -->
+        <div class="swiper-pagination"></div>
+           <!-- Swiper navigation buttons  -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+
+    <!-- ---------*---------BLOG---------*--------- -->
+    <section class="section-blog section-container">
+      <h2 class="heading-secondary blog__heading-secondary">
+        Our Recent <span class="heading-secondary__bold">Blog Posts</span>
+      </h2>
+      <div class="blog">
+        <div class="blog__item">
+          <img
+            src="./images/blog/blog-1.jpg"
+            alt="blog img"
+            class="blog__img"
+          />
+          <div class="blog__text-box">
+            <div class="blog__date">
+              <span>Posted by: Admin</span>
+              <span>01 June, 2022</span>
+            </div>
+            <p class="blog__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta,
+              laborum earum odio consequuntur ex repudiandae?
+            </p>
+            <a href="#" class="btn btn--text blog__btn"
+              ><spna
+                >Learn More&nbsp;<i class="fa-solid fa-angle-right"></i></spna
+            ></a>
+          </div>
+        </div>
+
+        <div class="blog__item">
+          <img
+            src="./images/blog/blog-2.jpg"
+            alt="blog img"
+            class="blog__img"
+          />
+          <div class="blog__text-box">
+            <div class="blog__date">
+              <span>Posted by: Admin</span>
+              <span>01 June, 2022</span>
+            </div>
+            <p class="blog__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta,
+              laborum earum odio consequuntur ex repudiandae?
+            </p>
+            <a href="#" class="btn btn--text blog__btn"
+              ><spna
+                >Learn More&nbsp;<i class="fa-solid fa-angle-right"></i></spna
+            ></a>
+          </div>
+        </div>
+
+        <div class="blog__item">
+          <img
+            src="./images/blog/blog-3.jpg"
+            alt="blog img"
+            class="blog__img"
+          />
+          <div class="blog__text-box">
+            <div class="blog__date">
+              <span>Posted by: Admin</span>
+              <span>01 June, 2022</span>
+            </div>
+            <p class="blog__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta,
+              laborum earum odio consequuntur ex repudiandae?
+            </p>
+            <a href="#" class="btn btn--text blog__btn"
+              ><spna
+                >Learn More&nbsp;<i class="fa-solid fa-angle-right"></i></spna
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------*---------FOOTER---------*--------- -->
+    <footer class="footer section-container">
+      <div class="footer__newsletter">
+        <h2 class="heading-secondary footer__heading-secondary">
+          <span class="heading-secondary__bold"
+            >Subscribe to our Newsletter,</span
+          >
+          get regular updates
+        </h2>
+        <form action="#" class="footer__form">
+          <input type="email" class="footer__input" placeholder="Enter Email" />
+          <input type="submit" class="footer__submit" value="Subscribe" />
+        </form>
+      </div>
+      <div class="footer__info">
+        <div class="footer__logo-box">
+          <img
+            src="./images/header/logo-light.svg"
+            alt="basic logo"
+            class="footer__logo"
+          />
+          <p class="para footer__text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor,
+            ipsum ipsam tenetur similique mollitia tempore voluptates voluptas.
+            Ex inventore totam commodi!
+          </p>
+          <ul class="footer__socials">
+            <li class="footer__socials-item">
+              <a href="#" class="footer__socials-link">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="footer__socials-item">
+              <a href="#" class="footer__socials-link">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+            <li class="footer__socials-item">
+              <a href="#" class="footer__socials-link"
+                ><i class="fa-brands fa-instagram-square"></i
+              ></a>
+            </li>
+            <li class="footer__socials-item">
+              <a href="#" class="footer__socials-link"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h3 class="footer__heading">Quick Links</h3>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#" class="footer__link">Road Map</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Privacy Policy</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Refund Policy</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Terms of Service</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Pricing</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h3 class="footer__heading">Resources</h3>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#" class="footer__link">Home</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Page</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Portfolio</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Blog</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h3 class="footer__heading">Contact Us</h3>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#" class="footer__link">(+93) 123 4567 8900</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">el@el.cool</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">www.el.cool</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link"
+                >177A Bleecker Street
+                <span class="footer__location">New York City, NY</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <p>
+          &copy; 2022. All Rights Reserved. Developed by <span>Mustrong</span>
+        </p>
+      </div>
+    </footer>
+
+    <!-- Swiper js -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- app js -->
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+.section-hero {
+  // grid-column: container-start / container-end;
+  background-image: url('../images/showcase/hero-bg.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+// .section-features,.section-about,.section-why,.section-team,.section-testimonials,.section-blog,.footer {
+//   grid-column: container-start / container-end;
+// }
+
+.section-testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+
+.swiper {
+  width: 600px;
+  height: 450px;
+
+  @include respond(tab-port) {
+    width: 550px;
+    height: 400px;
+  }
+
+  @include respond(tab-land) {
+    width: 480px;
+    height: 400px;
+  }
+  @include respond(phone) {
+    width: 350px;
+    height: 400px;
+  }
+  @include respond(phone-sm) {
+    width: 208px;
+    height: 400px;
+  }
+  
+}
+
+

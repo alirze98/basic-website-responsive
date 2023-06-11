@@ -1,0 +1,29 @@
+.hero {
+  color: $color-primary;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+  padding-top: 8rem;
+  text-align: center;
+
+  @include respond(phone) {
+    padding-top: 4rem;
+  }
+
+  &__text-box {
+    @include respond(phone) {
+      padding: 0 2rem;
+    }
+  }
+
+  &__text {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+
+  }
+
+  &__img {
+    width: 47%;
+  }
+}

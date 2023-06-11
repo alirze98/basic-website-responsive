@@ -1,0 +1,7 @@
+.section-container {
+  padding: calc(2rem + 5vh) calc(2rem + 10vw) ;
+
+  @include respond(custom) {
+      padding: calc(2rem + 5vh) calc(2rem + 2vw);
+  }
+}

@@ -1,0 +1,46 @@
+.about {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-column-gap: 4rem;
+  grid-row-gap: 10rem;
+
+  @include respond(tab-land) {
+    grid-template-columns: 1fr;
+  }
+
+  &__text-box {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: start;
+
+    align-self: center;
+
+    &--ml {
+      margin-left: 4rem;
+
+      @include respond(tab-land) {
+        margin-left: 0;
+      }
+    }
+  }
+
+  &__heading-secondary {
+    &::before {
+      left: 0;
+      transform: translate(0);
+    }
+  }
+
+  &__img {
+    width: 100%;
+
+    @include respond(tab-land) {
+      &:nth-of-type(2) {
+        grid-row: 4;
+      }
+    }
+  }
+
+}
